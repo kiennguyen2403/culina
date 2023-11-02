@@ -1,0 +1,45 @@
+{
+    "name": "shark-chat",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "dotenv -- turbo start",
+        "dev": "dotenv -- turbo dev",
+        "build": "dotenv -- turbo build",
+        "lint": "turbo lint",
+        "db:push": "dotenv -- drizzle-kit push:mysql"
+    },
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.5.9",
+        "autoprefixer": "^10.4.13",
+        "dotenv-cli": "^7.2.1",
+        "drizzle-kit": "^0.18.1",
+        "eslint": "8.33.0",
+        "eslint-config-next": "13.1.6",
+        "postcss": "^8.4.21",
+        "simple-peer": "^9.11.1",
+        "tailwindcss": "^3.3.2",
+        "tailwindcss-animate": "^1.0.6",
+        "tailwindcss-radix": "^2.7.0",
+        "turbo": "^1.10.2"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@mui/icons-material": "^5.14.15",
+        "@mui/material": "^5.14.15",
+        "@mui/styled-engine-sc": "6.0.0-alpha.3",
+        "@mui/system": "^5.14.15",
+        "ably": "^1.2.35",
+        "aws-sdk": "^2.1483.0",
+        "axios": "^1.5.1",
+        "bootstrap": "^5.3.2",
+        "react-bootstrap": "^2.9.1",
+        "react-dropzone": "^14.2.3",
+        "react-multi-select-component": "^4.3.4",
+        "react-responsive-carousel": "^3.2.23",
+        "react-webcam": "^7.2.0",
+        "simple-peer": "^9.11.1",
+        "styled-components": "^6.1.0"
+    }
+}
